@@ -1,0 +1,79 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\froman\fcharset0 Times-Roman;
+\f3\fswiss\fcharset0 ArialMT;\f4\froman\fcharset0 Times-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red24\green25\blue27;
+\red255\green255\blue255;\red18\green80\blue146;\red255\green255\blue255;\red0\green0\blue0;\red199\green200\blue201;
+\red0\green0\blue0;\red255\green255\blue255;\red199\green200\blue201;\red19\green80\blue147;\red199\green200\blue201;
+\red22\green21\blue22;\red22\green21\blue22;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000\c0;\cssrgb\c12549\c12941\c14118;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c7258\c39461\c64158;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c0\c1\c1;\cssrgb\c82147\c82540\c82727;
+\cssrgb\c0\c1\c1;\cssrgb\c100000\c100000\c99985\c0;\cssrgb\c82147\c82540\c82727;\cssrgb\c7458\c39706\c64394;\cssrgb\c82054\c82447\c82737;
+\cssrgb\c11372\c10980\c11359;\cssrgb\c11373\c10980\c11373;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid1\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}.}{\leveltext\leveltemplateid101\'01.;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww17520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \ul \ulc0 MAC
+\f1\b0 \ulnone \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\sl440\partightenfactor0
+\ls1\ilvl0
+\f2\fs30 \cf2 \cb3 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Open a terminal window. On Mac OS X, choose Applications > Utilities > Terminal. On other Linux distributions, terminal is typically found at Applications > Accessories > Terminal.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 To establish a connection to the master node, type the following command. Replace ~/msgpem.pem with the location and filename of the private key file (.pem) used to launch the cluster.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}
+\f3\fs26 \cf4 \cb5 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 chmod 400 ~/msgpem.pem 
+\f2\fs30 \cf2 \cb3 \strokec2 \
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 ssh -i ~/msgpem.pem\'a0{\field{\*\fldinst{HYPERLINK "mailto:hadoop@ec2-3-138-121-152.us-east-2.compute.amazonaws.com"}}{\fldrslt \cf6 \strokec6 hadoop@ec2-3-138-121-152.us-east-2.compute.amazonaws.com}}\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Type yes to dismiss the security warning.\
+\pard\tx566\pardeftab720\sl440\partightenfactor0
+\cf2 \
+
+\f4\b \cb7 \ul Windows
+\f1\b0 \cf8 \cb7 \ulnone \strokec9 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf10 \cb11 \expnd0\expndtw0\kerning0
+Download PuTTY.exe to your computer from:\cf8 \cb7 \kerning1\expnd0\expndtw0 \
+{\listtext	.	}{\field{\*\fldinst{HYPERLINK "http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html"}}{\fldrslt \cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec13 http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html}}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 \
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 Start PuTTY.\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 In the Category list, click Session.\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 In the Host Name field, type\'a0{\field{\*\fldinst{HYPERLINK "mailto:hadoop@ec2-3-139-234-70.us-east-2.compute.amazonaws.com"}}{\fldrslt 
+\f0\b \cf8 \cb7 \strokec13 hadoop@ec2-3-139-234-70.us-east-2.compute.amazonaws.com}}\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 In the Category list, expand Connection > SSH, and then click Auth.\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 For Private key file for authentication, click Browse and select the private key file (
+\f0\b \cf8 \cb7 \strokec9 msgppk.ppk
+\f1\b0 \cf8 \cb7 \strokec9 ) used to launch the cluster.\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 Click Open.\
+\ls2\ilvl0\cf8 \cb7 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 {\listtext	.	}\cf8 \cb7 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec9 Click Yes to dismiss the security alert.\cf14 \cb3 \strokec14 \
+\pard\tx566\pardeftab720\sl440\partightenfactor0
+
+\f2 \cf2 \strokec2 \
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f4\b \cf15 \cb1 \ul \ulc15 \strokec15 Commands\
+\
+\pard\pardeftab720\sl440\partightenfactor0
+
+\f1\b0 \cf2 \cb7 \ulnone \strokec9 hdfs dfs -ls /                                 -list directories\
+hdfs dfs -mkdir /data                    -make directory\
+hdfs dfs -put coda.csv /data        -put file in directory\
+hdfs dfs -ls /data                         -list directory\
+\pard\pardeftab720\sl300\partightenfactor0
+
+\f2 \cf16 \cb1 \strokec16 \
+{\field{\*\fldinst{HYPERLINK "https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html"}}{\fldrslt https://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-hdfs/HDFSCommands.html}}\
+}

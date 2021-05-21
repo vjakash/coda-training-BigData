@@ -1,0 +1,1 @@
+this is a word count document which is used for getting count of each word in this document
